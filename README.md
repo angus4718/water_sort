@@ -32,7 +32,7 @@ This Python implementation provides:
 
 - **Valid Move Detection**: Identifies legal moves based on the rules of the puzzle.
 - **State Validation**: Checks if the puzzle is solved at any given state.
-- **A* Algorithm**:
+- **A\* Algorithm**:
   - Uses a priority queue to explore states with the lowest cost.
   - Incorporates a heuristic for efficient state exploration.
 - **Undo Functionality**: Enables backtracking for testing purposes.
@@ -58,7 +58,7 @@ initial_tubes = [
 
 ### A* Search Algorithm
 
-The **A* algorithm** is used to solve the puzzle:
+The **A\* algorithm** is used to solve the puzzle:
 1. **Initial State**: Start with the given puzzle configuration.
 2. **Heuristic Function**: Estimates the number of moves needed to solve the puzzle by counting unsorted tubes and penalizing unsolved gaps.
 3. **Priority Queue**: States are explored in order of their estimated cost (`actual cost + heuristic cost`).
