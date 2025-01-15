@@ -1,6 +1,6 @@
 # Water Sort Puzzle Solver README
 
-This repository contains an implementation of the **Water Sort Puzzle Solver** using the **A* algorithm**. The Water Sort Puzzle is a logic-based game where the goal is to sort colored liquids into separate tubes. This solver uses heuristics to efficiently find solutions.
+This repository contains an implementation of the **Water Sort Puzzle Solver** using the **A\* algorithm**. The Water Sort Puzzle is a logic-based game where the goal is to sort colored liquids into separate tubes. This solver uses heuristics to efficiently find solutions.
 
 ---
 
@@ -23,7 +23,7 @@ The Water Sort Puzzle involves tubes containing stacks of colored liquids. The o
 
 This Python implementation provides:
 - A class for representing the puzzle state (`WaterSortPuzzle`).
-- The **A* algorithm** (`a_star_solver`) to find an optimal solution.
+- The **A\* algorithm** (`a_star_solver`) to find an optimal solution.
 - A heuristic function to estimate the number of moves required to solve the puzzle.
 
 ---
